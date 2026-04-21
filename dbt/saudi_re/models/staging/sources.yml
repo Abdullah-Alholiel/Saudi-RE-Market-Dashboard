@@ -1,0 +1,35 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    tables:
+      - name: moj_sales
+        description: "Cleaned MOJ sales data (1.4M transactions, 2020-2025)"
+        columns:
+          - name: region_ar
+            description: "Canonical Arabic region name"
+          - name: region_en
+            description: "English region name"
+          - name: city
+            description: "City name (Arabic)"
+          - name: district
+            description: "District/neighborhood name (Arabic)"
+          - name: date_gregorian
+            description: "Transaction date (Gregorian)"
+          - name: year
+            description: "Year extracted from date"
+          - name: quarter
+            description: "Quarter (1-4)"
+          - name: year_quarter
+            description: "Combined year+quarter (e.g. 202001)"
+          - name: property_classification
+            description: "سكني/تجاري/زراعي/صناعي"
+          - name: property_type
+            description: "Property type (only 2023 Q1-Q3)"
+          - name: property_count
+            description: "Number of properties in transaction"
+          - name: area
+            description: "Area in m²"
+          - name: price
+            description: "Price in SAR"

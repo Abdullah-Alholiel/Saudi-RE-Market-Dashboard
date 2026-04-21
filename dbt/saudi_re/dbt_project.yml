@@ -1,0 +1,23 @@
+name: 'saudi_re'
+version: '1.0.0'
+config-version: 2
+
+profile: 'saudi_re'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+seeds:
+  saudi_re:
+    region_mapping:
+      +column_types:
+        canonical_ar: varchar
+        canonical_en: varchar
+        variant: varchar

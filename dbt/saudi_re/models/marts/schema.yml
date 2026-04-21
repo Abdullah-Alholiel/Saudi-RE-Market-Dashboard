@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: fct_seasonal_patterns
+    description: "Seasonal patterns — avg transactions and value by quarter per region"
+    columns:
+      - name: quarter
+        tests:
+          - not_null
+          - accepted_values:
+              values: [1, 2, 3, 4]
+      - name: region_en
+        tests:
+          - not_null
+
+  - name: fct_emerging_cities
+    description: "Emerging cities ranked by transaction CAGR"
+    columns:
+      - name: city
+        tests:
+          - not_null
+      - name: transaction_cagr
+        tests:
+          - not_null
+
+  - name: fct_deal_size_trends
+    description: "Deal size trends — median price/area/price_per_m2 by quarter and classification"
+    columns:
+      - name: year_quarter
+        tests:
+          - not_null
+      - name: classification_en
+        tests:
+          - not_null

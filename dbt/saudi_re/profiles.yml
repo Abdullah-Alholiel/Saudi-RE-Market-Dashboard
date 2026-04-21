@@ -1,0 +1,7 @@
+saudi_re:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "../../data/saudi_re.duckdb"
+      threads: 4

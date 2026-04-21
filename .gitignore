@@ -1,0 +1,24 @@
+# Data files (too large for git)
+data/raw/
+data/lake/
+data/*.duckdb
+data/*.duckdb.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# dbt
+dbt/saudi_re/target/
+dbt/saudi_re/dbt_packages/
+dbt/saudi_re/logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
