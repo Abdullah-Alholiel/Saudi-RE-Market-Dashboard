@@ -72,23 +72,23 @@ The dashboard has **4 interactive tiles** with a **bilingual toggle** (Arabic ðŸ
 
 ### Tile 1: Seasonal Patterns
 Average quarterly transactions by region (Q1-Q4 Ã— 13 regions), filterable by year.
-*(Insert Screenshot Here)*
-`![Tile 1 - Seasonal Heatmap](insert_link_here)`
+![alt text](image-1.png)
+
 
 ### Tile 2: Emerging Cities
 Top N cities ranked by transaction CAGR, colored by region.
-*(Insert Screenshot Here)*
-`![Tile 2 - Emerging Cities](insert_link_here)`
+![alt text](image-2.png)
+
 
 ### Tile 3: Median Deal Price Trend
 Quarterly median price by property classification.
-*(Insert Screenshot Here)*
-`![Tile 3 - Median Price](insert_link_here)`
+![alt text](image-3.png)
+
 
 ### Tile 4: Median Area Trend
 Quarterly median area by property classification.
-*(Insert Screenshot Here)*
-`![Tile 4 - Median Area](insert_link_here)`
+![alt text](image-4.png)
+
 
 ---
 
